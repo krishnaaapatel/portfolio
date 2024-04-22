@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  background-color: #1f242d;
+  color: aliceblue;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+.logo a{
+  text-decoration: none;
+  margin-left: 5rem;
+  color: aliceblue;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.nav-bar a{
+  text-decoration: none;
+  margin-right: 3rem;
+  color:aliceblue;
+  font-size: 1.3rem;
+  font-weight: 700;
+  
+}
+.nav-bar a:hover{
+  color: #0ef;
+}
+.image img{
+   height: 35rem;
+  width: 35rem;
+  
+  /* background: transparent; */
+}
+.hero-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-side h3{
+  font-size: 3rem;
+  font-weight:700;
+  margin: 20px 0;
+}
+.info-side h1{
+  font-size:5rem ;
+  font-weight: 800;
+}
+.info-side h2 span{
+  color: #0ef;
+  
+}
+h2{
+  font-size: 2rem;
+}
+p{
+  
+  margin-top:  1.7rem;
+  font-size: 1.3rem;
+ 
+}
+i{
+  border: 2px solid #0ef;
+  color: #0ef;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 1.7rem;
+  margin-top:1.7rem ;
+  margin-left: 1rem;
+  /* box-shadow:0 0 20p ;
+  transition: 0.4ms; */
+}
+i:hover{
+ box-shadow: 0 0 20px #0ef;
+}
+.btn{
+  margin-top: 1.7rem;
+  padding: 15px 60px 15px 60px;
+  background-color: #0ef;
+  border-radius: 30px;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 0 20px #0ef;
+
+}
+/* .btn:hover{
+  box-shadow: 0 0 20px #0ef;
+} */
